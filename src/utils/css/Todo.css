@@ -1,0 +1,23 @@
+.Container_Todo{
+    display: flex;
+    width: 100%;
+    height: 31vh;
+    border: 2px solid greenyellow;
+    background-color: rgb(145, 240, 142);
+    justify-content: space-between;
+}
+.ContainerText{
+    flex-direction: column;
+    width: 50%;
+    margin: 10px;
+    font-family: Impact;
+    font-size: 20px;
+
+}
+.ContainerImage{
+    display:flex;
+    height: 100%;
+    width: 50%;
+    margin-right: 10px;
+    justify-content: center;
+}
