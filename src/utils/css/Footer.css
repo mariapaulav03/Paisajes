@@ -6,3 +6,18 @@
     background-color: rgb(240, 142, 240);
     justify-content: space-between;
 }
+.Containertext{
+    flex-direction: column;
+    width: 50%;
+    margin: 10px;
+    font-family: Impact;
+    font-size: 20px;
+
+}
+.Containerimage{
+    display:flex;
+    height: 200px;
+    width: 250px;
+    margin-right: 10px;
+    justify-content: center;
+}

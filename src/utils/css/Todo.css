@@ -16,8 +16,8 @@
 }
 .ContainerImage{
     display:flex;
-    height: 100%;
-    width: 50%;
+    height: 200px;
+    width: 250px;
     margin-right: 10px;
     justify-content: center;
 }

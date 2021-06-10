@@ -4,9 +4,14 @@ import arbol from '../utils/images/paisajex2.jpg'
 
 const Footer = () => {
     return(
-        <div class='Container_Footer'>
-            <p>Hola, este es el componente Footer que se ve desde el rio</p>
-            <img src={arbol}/>
+        <div className="Container_Footer">
+             <div className="Containertext">
+                <h1>Árbol</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur placeat, dicta alias natus accusamus similique nemo corporis? Velit, illum sunt, sed quaerat odio corrupti dolores doloribus aspernatur enim.</p>
+            </div>
+            <div className="Containerimage">
+                <img src={arbol} alt="Hola, Soy Maria Paula" />
+            </div>
         </div>
     )
 }
