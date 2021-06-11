@@ -4,6 +4,7 @@
     height: 15vh;
     justify-content: center;
     background-color: rgb(206, 182, 228);
+    margin: 20px 5px;
 }
 #principalTitle{
     font-size: 35px;
